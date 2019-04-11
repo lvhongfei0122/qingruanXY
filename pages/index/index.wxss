@@ -1,0 +1,90 @@
+/**index.wxss**/
+.selection{
+  border-bottom:10rpx solid #1E90FF; 
+}
+.slide-image{
+  width:100%;
+}
+.header{
+  border-left: 8rpx solid #1E90FF;
+  padding: 0rpx 15rpx;
+  margin:15rpx 0rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  height: 60rpx;
+}
+.course-all{
+  font-size:25rpx;
+  color:gray;
+  line-height: 60rpx;
+}
+.content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.content-item{
+  width:45%;
+  height:250rpx;
+  border:1rpx solid #ccc;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin: 10rpx;
+
+  position: relative;
+}
+.content-item image{
+  width: 100%;
+  height:100%;
+}
+.content-item text{
+  position: absolute;
+  bottom:0rpx;
+  width:100%;
+  height:60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size:30rpx;
+  background:rgba(0,0,0,0.2);
+  color:white;
+}
+.selection-else{
+  border: none;
+}
+.list-item{
+  width: 100%;
+  height:500rpx;
+}
+.list-item-images{
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+}
+.list-item-images image{
+  width: 100%;
+  height: 100%;
+}
+.list-item-images .avatar{
+  width: 90rpx;
+  height: 90rpx;
+  position: absolute;
+  bottom:-40rpx;
+  right:50rpx;
+}
+.list-item-text{
+  hieght:200rpx;
+  width: 95%;
+  padding: 0px 20rpx;
+  margin-top:20rpx;
+}
+.list-item-title{
+  font-size:35rpx;
+}
+.list-item-content{
+  font-size:30rpx;
+  color:gray;
+  margin-top: 20rpx;
+  line-height: 40rpx;
+}

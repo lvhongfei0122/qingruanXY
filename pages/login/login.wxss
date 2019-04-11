@@ -1,0 +1,68 @@
+/* pages/login/login.wxss */
+.mcontainer{
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.item{
+  display: flex;
+  overflow: hidden;
+  width: 90%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx;
+}
+.logo{
+  width: 320rpx;
+  height:100rpx;
+  margin-top:50rpx;
+}
+.login-item{
+  flex:1;
+  margin-top:30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.login-item .login-item-info{
+  font-size: 35rpx;
+  color: black;
+  padding-bottom: 20rpx;
+}
+.login-item input{
+  border: 1rpx solid #ccc;
+  padding: 10rpx;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+}
+.login-item button{
+  width: 80%;
+  font-size:35rpx;
+  background: #1E90FF;
+}
+.bottom-info{
+  font-size:25rpx;
+}
+.forgetpwd{
+  padding: 10rpx;
+}
+.forgetpwd:hover{
+  color:#1E90FF;
+}
+.newregist text{
+  padding: 10rpx;
+}
+.newregist text:hover{
+    color:#1E90FF;
+}
+.wechat-icon image{
+  width: 80rpx;
+  height:80rpx;
+  margin-top:30rpx;
+  padding: 20rpx;
+  border: 2rpx solid #1E90FF;
+  border-radius: 50%;
+}

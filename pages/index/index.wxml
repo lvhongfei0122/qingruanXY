@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<view class='container'>
+  <view class='selection'>
+    <swiper
+      indicator-dots="true"
+      indicator-color='white'
+      indicator-active-color='#1E90FF'
+      autoplay="true"
+      interval="3000"
+      duration="1000"
+    >
+      <block wx:for="{{imgUrls}}" wx:key='*this'>
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class='selection selection-else'>
+    <view class='header'>
+      <text>精品课程</text>
+      <text class='course-all'>全部课程>></text>
+    </view>
+    <view class='content'>
+      <view class='content-item' wx:for='{{courseItems}}' wx:key='*this'>
+        <image src='{{item.course}}'></image>
+        <view class='content-item-text'>
+          <text>{{item.title}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='selection selection-else'>
+    <view class='header'>
+      <text>开发流程</text>
+      <text class='course-all'>详细流程>></text>
+    </view>
+    <view class='list-item' wx:for='{{listItems}}' wx:key='develop'>
+      <view class='list-item-images'>
+        <image class='list-item-images-img' src='{{ item.develop}}'></image>
+        <image class='avatar' src='{{item.devico}}'></image>
+      </view>
+      <view class='list-item-text'>
+        <view class='list-item-title'>
+          <text>{{item.devtitle}}</text>
+        </view>
+        <view class='list-item-content'>
+          <text>{{item.devcontent}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTitleText": "青软学院",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#000000",
+    "backgroundColor": "#1E90FF",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/yonghu.png",
+        "selectedIconPath": "images/yonghu.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
